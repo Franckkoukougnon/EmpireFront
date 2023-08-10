@@ -1,0 +1,12 @@
+header{
+    background-color: white;
+    padding: 0;
+    border-bottom: 1px solid #726f6f;
+}
+
+a{
+    color: black;
+}
+a:hover{
+    background-color: #726f6f;
+}

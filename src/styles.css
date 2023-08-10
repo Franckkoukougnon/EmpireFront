@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@font-face {
+    font-family: 'myfont_1';
+    src: url('/assets/Caveat-VariableFont_wght.ttf'); 
+}
+
+@font-face {
+    font-family: 'myfont_2';
+    src: url('/assets/Lobster-Regular.ttf');  
+}
+
+@font-face {
+    font-family: 'myfont_3';
+    src: url('/assets/OpenSans-VariableFont_wdth,wght.ttf');   
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: quicksand, sans-serif;
+    font-size: 18px;
+   
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
