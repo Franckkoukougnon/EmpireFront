@@ -92,6 +92,18 @@ export class AppartService {
         star: 0,
         tags: ['tag1', 'tag2'],
       },
+      {
+        id: 8,
+        name: 'Appartement 8',
+        description: 'Description 8',
+        longDescription: 'Long Description 8',
+        commune: 'Commune 8',
+        bailleur: 'Bailleur 8',
+        favorite: false,
+        image: 'assets/maison_6.avif',
+        star: 0,
+        tags: ['tag1', 'tag2'],
+      },
     ];
   }
 }

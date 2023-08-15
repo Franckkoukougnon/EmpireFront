@@ -43,11 +43,9 @@
 
 }
 
-.card-content  {
-  p{
-    font-family: 'myfont_3';
-  }
-    
+.card-content  p{
+ 
+    font-family:'myfont_1';
 }
 
 
