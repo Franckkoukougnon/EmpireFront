@@ -8,5 +8,31 @@ a{
     color: black;
 }
 a:hover{
-    background-color: #726f6f;
+    background-color: crimson;
+color: #fbf6f6;
+}
+
+.apt_header {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+a.logo{
+    font-family: 'myfont_2';
+    padding: 1em;
+}
+
+nav ul  {
+    list-style-type: none;
+    margin: 0;
+}
+
+
+nav ul li  a{
+
+    padding: 1em;
+    display: inline-block;
+    font-family: 'myfont_3';
+  
 }

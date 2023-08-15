@@ -1,0 +1,64 @@
+.card-list-container {
+  display: flex;
+  flex-wrap: wrap; /* Permet aux groupes de cartes de passer à la ligne */
+  gap: 5px; /* Espacement entre les groupes de cartes */
+  margin: 2px;
+  background-color: beige;
+}
+
+.card-list {
+  display: flex;
+  gap: 5px; /* Espacement horizontal entre les cartes */
+  padding: 5px;
+  
+ 
+ 
+}
+
+.card-list  h4{
+    font-family: 'myfont_2';
+  }
+
+
+.card {
+  width: 300px;
+  background-color: #fff;
+ 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  
+}
+
+.card img {
+  width: 100%; /* Pour s'assurer que l'image occupe toute la largeur de la carte */
+  height: 150px; /* Taille fixe pour l'image */
+  object-fit: cover; /* Ajuste l'image à la taille sans déformation */
+}
+
+.card-title{
+    font-family: 'myfont_2';
+    text-align: center;
+
+}
+
+.card-content  {
+  p{
+    font-family: 'myfont_3';
+  }
+    
+}
+
+
+.custom-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+
+  cursor: pointer;
+ 
+}
+
+/* Ajoutez vos styles pour .card-title, .card-content et .button ici */

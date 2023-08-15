@@ -1,0 +1,21 @@
+<!-- Home page -->
+
+<div class="card-list-container">
+  <div class="card-list" *ngFor="let appart of apparts">
+    <div class="card">
+      <div class="card-title">
+        <h4>{{appart.name}}</h4>
+      </div>
+      <div class="card-content">
+        <img src={{appart.image}} alt="appart images">
+        <p>{{appart.description}}</p>
+        <p>Description de la carte. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+         <button class="custom-button">En savoir plus</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  
+
